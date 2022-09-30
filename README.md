@@ -28,6 +28,7 @@ This project will run on **ReactJs** as frontend **Django** as a backend server 
 
 cd backend
 pipenv shell
+pipenv install
 python manage.py migrate
 python manage.py runserver
 cd frontend
