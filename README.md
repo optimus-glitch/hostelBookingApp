@@ -28,8 +28,8 @@ This project will run on **ReactJs** as frontend **Django** as a backend server 
 
 cd backend
 pipenv shell
-pipenv manage.py migrate
-pipenv manage.py runserver
+python manage.py migrate
+python manage.py runserver
 cd frontend
 npm install
 npm start
